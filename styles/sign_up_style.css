@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300,400;500;600,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right,  #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form_container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+.form_container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.form_container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_container input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8px 0;
+    background-color: #eee;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.form_container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 10px 45px;
+    cursor: pointer;
+}
+
+.toggle-container{
+    background-color: #512da8;
+    height: 100%;
+    border-left-width: 100%;
+    border-radius: 150px 0 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.toggle-container h2{
+    color: #eee;
+    text-align: center;
+    margin: 10px;
+}
+
+.toggle-container p{
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+}
+
+.toggle-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: #512da8;
+    border: 1px, solid transparent;
+    border-radius: 8px;
+    padding: 10px 45px;
+    margin: 10px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
